@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/img/heart.gif" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>Kwan ❤ Tina</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div onclick="showMenu()" class="menu-body">
+        <i class="fa-duotone fa-solid fa-gear"></i>
+      </div>
+    </div>
+    <div id="playlist-menu">
+      <div class="music-box">
+      <h1>Danh sách nhạc</h1>
+      <button onclick="closeMenu()" class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+          <div class="music-playlist">
+          <!-- 
+            <div class="music-list">
+              <div class="music-song">
+                <div class="song-image">
+                  <img class="img" src="">
+                </div>
+                <div class="song-name">Có em</div>
+                <div class="song-authors">Mahidu</div>
+              </div>
+            </div>
+          -->
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="title">CHÚNG TỚ ĐÃ BÊN NHAU ĐƯỢC</h1>
+      <h1 class="mobile-title">LOVE DAYS</h1>
+      <div id="clock-box">
+        <div class="clock">
+          <span class="clock-item" id="days">00</span> Ngày
+          <span class="clock-item" id="hours">00</span> Giờ
+          <span class="clock-item" id="minutes">00</span> Phút
+          <span class="clock-item" id="seconds">00</span> Giây
+        </div>
+      </div>
+      <div class="main-box">
+        <div class="main-box__male bottom">
+          <img src="/img/male.jpg" alt="" />
+          <span class="name"> MauManh</span>
+        </div>
+        <div class="heart">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="main-box__female">
+          <img src="/img/female.JPG" alt="" />
+          <span class="name">BaoThu</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="letter-btn">
+      <div class="btn">
+        <a href="letter.html">Nhấn vào đây đi cậu!</a>
+      </div>
+    </div> -->
+
+    <div class="message">
+      <p>
+        Kwann
+        <i
+          class="fa-solid fa-heart"
+          style="
+            margin: 0 0.3rem;
+            color: red;
+            animation: pound 0.3s infinite alternate;
+          "
+        ></i>
+        Tina
+      </p>
+    </div>
+
+    <audio id="audioPlayer">
+      <source id="audioSource" src="" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="/assets/main.js"></script>
+  </body>
+</html>
