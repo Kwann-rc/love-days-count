@@ -27,6 +27,12 @@ setInterval(updateCountDown, 1000);
 // playlist
 const musicData = [
   {
+    "audio": "/audio/Ur Last.mp3",
+    "avatar": "https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/3/0/d/f/30dfcefdd2fa12c6fba508b79c733f7f.jpg",
+    "title": "Ur Last",
+    "author": "Hngle"
+  },
+  {
       "audio": "/audio/BẠN ĐỜI.mp3",
       "avatar": "https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/5/4/8/e/548ebf004852b5e6887fb3f8861115c1.jpg",
       "title": "Bạn Đời",
