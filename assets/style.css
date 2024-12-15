@@ -326,9 +326,10 @@ overflow-y: auto;
   #playlist-menu {
   width: 100%;
   left: 0;
+  height: auto;
   }
   .music-box {
-    height: 500px;
+    height: 650px;
   }
 }
 /* ==========END INDEX STYLE CSS========== */
