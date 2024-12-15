@@ -137,11 +137,11 @@ function playMusic(song) {
 }*/
 // MENU
 function showMenu() {
-  const menu = document.querySelector(".music-box");
+  const menu = document.querySelector("#playlist-menu");
   menu.style.display = "flex";
 };
 function closeMenu() {
-  const menu = document.querySelector(".music-box");
+  const menu = document.querySelector("#playlist-menu");
   menu.style.display = "none";
 }
 
