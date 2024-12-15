@@ -106,7 +106,7 @@ backdrop-filter: blur( 8px );
 -webkit-backdrop-filter: blur( 8px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-max-height: 100vh;
+max-height: 90vh;
 overflow-y: auto;
 }
 
@@ -161,6 +161,7 @@ overflow-y: auto;
 
 .song-authors {
   margin-right: 1rem;
+  text-align: end;
 }
 
 /* ==========END MENU========== */
@@ -327,7 +328,7 @@ overflow-y: auto;
   left: 0;
   }
   .music-box {
-    max-width: 450px;
+    height: 250px;
   }
 }
 /* ==========END INDEX STYLE CSS========== */
