@@ -1,4 +1,4 @@
-const startDay = new Date(2024, 10, 23);
+const startDay = new Date(2010, 10, 10); //YYYY, MM, DD
 
 function updateCountDown() {
   const now = new Date();
